@@ -78,6 +78,12 @@ public:
 	int countPermutations() {
 
 	}
+
+	void printList() {
+		for (int i = 0; i < size; i++) {
+			cout << data[i].getVal() << " ";
+		}
+	}
 };
 
 int main() {
@@ -95,5 +101,5 @@ int main() {
 	list.add("b");
 	list.add("a");
 
-	cout << list.get(10).getVal();
+	list.printList();
 }
