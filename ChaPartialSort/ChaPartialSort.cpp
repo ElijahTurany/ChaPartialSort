@@ -1,3 +1,5 @@
+//Elijah Turany
+//CS244-002
 #include <iostream>
 #include <string>
 using namespace std;
